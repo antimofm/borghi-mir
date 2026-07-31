@@ -1,15 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Borghi-Mir</title>
-<style>
-  html,body{height:100%}
-  body{margin:0;display:grid;place-items:center;background:#fff;color:#0a0a0a;
-       font:600 clamp(1.2rem,4vw,2rem)/1 -apple-system,system-ui,sans-serif;letter-spacing:-.02em}
-  @media(prefers-color-scheme:dark){body{background:#0a0a0a;color:#fafafa}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Borghi-Mir</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#0a0a0a;
+      --bg:#ffffff;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html,body{height:100%;}
+    body{
+      font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+      background:var(--bg);
+      color:var(--ink);
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+    h1{
+      font-weight:400;
+      font-size:clamp(0.95rem,1.4vw,1.1rem);
+      letter-spacing:-0.003em;
+    }
+  </style>
 </head>
-<body>Borghi-Mir</body>
+<body>
+  <h1>Borghi-Mir</h1>
+</body>
 </html>
